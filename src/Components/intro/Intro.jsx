@@ -14,8 +14,8 @@ export default function Intro() {
             { 
             showCursor: true, 
             backDelay:  1500,
-            typeSpeed:  125,
-            backSpeed: 100,
+            typeSpeed:  100,
+            backSpeed: 125,
             strings: [' Mechanical Engineer', ' Programmer', ' Tutor', ' Web Developer' ], 
         });
     }, [])

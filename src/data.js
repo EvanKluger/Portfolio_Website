@@ -24,7 +24,7 @@ export const featuredPortfolio = [
 },
 {
     id: 'featured',
-    title: 'K-College Math Tutor',
+    title: 'K-College Math and Science Tutor',
     img: 'assets/Math-Tutoring.png'
 },
 ]
