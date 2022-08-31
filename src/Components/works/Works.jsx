@@ -51,7 +51,7 @@ export default function Works() {
         {
             id: 6,
             title: 'Springles: Energy Can',
-            img: 'assets/Math-Tutoring.png',
+            img: 'assets/Energy_Can.png',
             icon: <ViewInArIcon className = 'icon'/>,
             decription: 'The Springles Energy Can is a can that produces energy when shaken to be taken during hikes or trips as a portable charger. The model illustarted highlights the inside of the can and the parts that conduct the electricty need to power. The can successfully convwerted shaking power into a usable USB outlet that a person can charge there phone with.',
         },
@@ -59,7 +59,7 @@ export default function Works() {
         {
             id: 7,
             title: 'Cart Competetion',
-            img: 'assets/autism_cube2.png',
+            img: 'assets/Cart_Competition.png',
             icon: <ViewInArIcon className = 'icon'/>,
             decription: 'The Cart Competetion was a competition for part of the Design and Prototyping course. The deisng illustrated on the right won the compeition for its stability and cool features',
         },
