@@ -32,7 +32,7 @@ export default function Works() {
             decription: 'The BlackJack Terminal Game is a game I created using python that allows you to play BlackJack against a functioning dealer. The game also has a version where an algorthim plays for you based on the "play by the book" strategy.',
         },
         {
-            id: 3,
+            id: 4,
             title: 'Learning Cube for Children with Autism',
             img: 'assets/autism_cube2.png',
             icon: <ViewInArIcon className = 'icon'/>,
@@ -40,7 +40,7 @@ export default function Works() {
         },
 
         {
-            id: 4,
+            id: 5,
             title: 'Falling Bananas - A JavaScript Game',
             img: 'assets/MoneyGame.png',
             icon: <ViewInArIcon className = 'icon'/>,
@@ -48,14 +48,14 @@ export default function Works() {
         },
 
         {
-            id: 5,
+            id: 6,
             title: 'Dentist Business Website',
             img: 'assets/dentist_website.png',
             icon: <ViewInArIcon className = 'icon'/>,
             decription: 'The Dentist Business Website is a website I built from scratch for a small dentist practice',
         },
         {
-            id: 6,
+            id: 7,
             title: 'Springles: Energy Can',
             img: 'assets/Energy_Can.png',
             icon: <ViewInArIcon className = 'icon'/>,
@@ -63,7 +63,7 @@ export default function Works() {
         },
 
         {
-            id: 7,
+            id: 8,
             title: 'Cart Competetion',
             img: 'assets/Cart_Competition.png',
             icon: <ViewInArIcon className = 'icon'/>,
@@ -71,14 +71,14 @@ export default function Works() {
         },
         
         {
-            id: 8,
+            id: 9,
             title: 'Work-In: A Shopify Website',
             img: 'assets/shopifycover.png',
             icon: <ViewInArIcon className = 'icon'/>,
             decription: 'Work-In is an ecommerce website designed to sell workout equipment for one’s home. The website was built and ran on the Shopify platform.',
         },
         {
-            id: 9,
+            id: 10,
             title: 'K-College Math and Science Tutor',
             img: 'assets/Math-Tutoring.png',
             icon: <ViewInArIcon className = 'icon'/>,
