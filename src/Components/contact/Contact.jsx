@@ -17,9 +17,9 @@ export default function Contact() {
             <div className="container">
                 <h2>Contact</h2>
                 <ConnectWithoutContactIcon className = 'icon'/>
-                <form onSubmit ={handleSubmit}>
-                    <input type="text" placeholder='Email' />
-                    <textarea placeholder='Message'></textarea>
+                <form action = 'https://formsubmit.co/jakeykluger@gmail.com' method="POST" onSubmit ={handleSubmit} >
+                    <input type="text" placeholder='Email' required/>
+                    <textarea placeholder='Message' required></textarea>
                     <button>Submit</button>
                     {message && <span>Thanks will reply soon</span>}
                 </form>

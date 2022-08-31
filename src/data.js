@@ -10,7 +10,26 @@ export const featuredPortfolio = [
     title: 'Bionic Hand with Machine Learning Rock Paper Scissors Algorithim',
     img: 'assets/bionichand.png'
 },
-
+{
+    id: 'featured',
+    title: 'Falling Bananas - A Javascript Game',
+    img: 'assets/MoneyGame.png'
+},
+{
+    id: 'featured',
+    title: 'Springles: Energy Can',
+    img: 'assets/Energy_Can.png'
+},
+{
+    id: 'featured',
+    title: 'Dentist Business Website',
+    img: 'assets/dentist_website.png'
+},
+{
+    id: 'featured',
+    title: 'Cart Competion - Tesla Model',
+    img: 'assets/Cart_Competition.png'
+},
 {
     id: 'featured',
     title: 'Learning Cube for Children with Autism',
@@ -27,6 +46,9 @@ export const featuredPortfolio = [
     title: 'K-College Math and Science Tutor',
     img: 'assets/Math-Tutoring.png'
 },
+
+
+
 ]
 export const WebPortfolio = [
     {

@@ -22,7 +22,7 @@ export default function Works() {
             title: 'Bionic Hand',
             img: 'assets/bionichand.png',
             icon: <ViewInArIcon className = 'icon'/>,
-            decription: 'The Bionic Hand is a mechanical design project that allows for a 3D printed hand to be controlled by the squeeze of the musscle. The purpose of this project was to create a cheap alterantive to the expensive Bionic Hands in the market, with the needed funcionatlity. Additionally, the hand was programmed with a Rock Paper Scissors game using a machine learning algorithm to be able to play Rock Paper Scissors against a user.',
+            decription: 'The Bionic Hand is a mechanical 3D printed hand that is controlled by the squeeze of a muscle. The purpose of this project was to create a cheap alternative to the expensive Bionic Hands in the market, that still has the capability of grabbing objects. Additionally, the hand was also integrated for a project involving a game booth where the hand was programmed with a Rock Paper Scissors algorithm to play against a user.',
         },
         
         {
@@ -30,29 +30,60 @@ export default function Works() {
             title: 'Learning Cube for Children with Autism',
             img: 'assets/autism_cube2.png',
             icon: <ViewInArIcon className = 'icon'/>,
-            decription: 'The Learning Cube for Children with Autism is a project designed to make learning simpler and more interactive for Children with Autism. The project has a website for the teacher/parent to enter leearning questions, which the student answers with using the fun features of the Learning Cube.',
+            decription: 'The Learning Cube for Children with Autism is a project designed to make learning simpler and more interactive for Children with Autism. The project involves a website for the teacher/parent to enter learning questions and a fidget cube for the student to enter answers in a focused and entertaining way.',
+        },
+
+        {
+            id: 4,
+            title: 'Falling Bananas - A JavaScript Game',
+            img: 'assets/MoneyGame.png',
+            icon: <ViewInArIcon className = 'icon'/>,
+            decription: 'Falling Bananas is a fun game that can be played at fallingbananas.com',
+        },
+
+        {
+            id: 5,
+            title: 'Dentist Business Website',
+            img: 'assets/dentist_website.png',
+            icon: <ViewInArIcon className = 'icon'/>,
+            decription: 'The Dentist Business Website is a website I built from scratch for a small dentist practice',
+        },
+        {
+            id: 6,
+            title: 'Springles: Energy Can',
+            img: 'assets/Math-Tutoring.png',
+            icon: <ViewInArIcon className = 'icon'/>,
+            decription: 'The Springles Energy Can is a can that produces energy when shaken to be taken during hikes or trips as a portable charger. The model illustarted highlights the inside of the can and the parts that conduct the electricty need to power. The can successfully convwerted shaking power into a usable USB outlet that a person can charge there phone with.',
+        },
+
+        {
+            id: 7,
+            title: 'Cart Competetion',
+            img: 'assets/autism_cube2.png',
+            icon: <ViewInArIcon className = 'icon'/>,
+            decription: 'The Cart Competetion was a competition for part of the Design and Prototyping course. The deisng illustrated on the right won the compeition for its stability and cool features',
         },
         
         {
-            id: 4,
+            id: 8,
             title: 'Work-In: A Shopify Website',
             img: 'assets/shopifycover.png',
             icon: <ViewInArIcon className = 'icon'/>,
-            decription: 'Work-In is an eccomerce website designed to sell workout equitment for ones home. The website was built and run using the Shopify platform.',
+            decription: 'Work-In is an ecommerce website designed to sell workout equipment for one’s home. The website was built and ran on the Shopify platform.',
         },
         {
-            id: 5,
+            id: 9,
             title: 'K-College Math and Science Tutor',
             img: 'assets/Math-Tutoring.png',
             icon: <ViewInArIcon className = 'icon'/>,
-            decription: 'For the past few years, I have been a math and science tutor for all ages. The tutoring not only helped me run a business and sharpen my skills in these subjects, but has helped me increase my skills with working with others and delivering over concepts and ideas correctly.',
+            decription: 'For the past few years, I have been a math and science tutor for all ages. The tutoring not only helped me run a business and sharpen my skills in these subjects but has helped me increase my skills in working with others and delivering over concepts and ideas correctly.',
         },
 
     ];
 
     const handleClick = (way)=> {
         way === 'left' ? setCurrentSlide(currentSlide>0 ? currentSlide-1: 4) :
-        setCurrentSlide(currentSlide<4 ? currentSlide+1: 0)
+        setCurrentSlide(currentSlide<8 ? currentSlide+1: 0)
     };
 
     return (
