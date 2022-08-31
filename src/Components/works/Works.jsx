@@ -24,7 +24,13 @@ export default function Works() {
             icon: <ViewInArIcon className = 'icon'/>,
             decription: 'The Bionic Hand is a mechanical 3D printed hand that is controlled by the squeeze of a muscle. The purpose of this project was to create a cheap alternative to the expensive Bionic Hands in the market, that still has the capability of grabbing objects. Additionally, the hand was also integrated for a project involving a game booth where the hand was programmed with a Rock Paper Scissors algorithm to play against a user.',
         },
-        
+        {
+            id: 3,
+            title: 'BlackJack Terminal Game',
+            img: 'assets/autism_cube2.png',
+            icon: <ViewInArIcon className = 'icon'/>,
+            decription: 'The BlackJack Terminal Game is a game I created using python that allows you to play BlackJack against a functioning dealer. The game also has a version where an algorthim plays for you based on the "play by the book" strategy.',
+        },
         {
             id: 3,
             title: 'Learning Cube for Children with Autism',

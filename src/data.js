@@ -12,6 +12,11 @@ export const featuredPortfolio = [
 },
 {
     id: 'featured',
+    title: 'BlackJack Terminal Game',
+    img: 'assets/BlackJack.png'
+},
+{
+    id: 'featured',
     title: 'Falling Bananas - A Javascript Game',
     img: 'assets/MoneyGame.png'
 },
