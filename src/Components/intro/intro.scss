@@ -26,10 +26,13 @@
             float: right;
             
             @include mobile{
+                border-radius: 0%;
+                border-color: whitesmoke;
                 align-items: flex-start;
-                background-color: black;
+                background-color: whitesmoke;
                 overflow: none;
                 height: 400px;
+                margin-top: 5%;
             }
             
             img{
@@ -78,7 +81,7 @@
                 font-size: 35px;
                 
                 @include mobile{
-                    font-size: 35px;
+                    font-size: 30px;
                     
                 }   
             }

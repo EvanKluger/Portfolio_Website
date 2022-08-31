@@ -27,7 +27,7 @@ export default function Works() {
         {
             id: 3,
             title: 'BlackJack Terminal Game',
-            img: 'assets/autism_cube2.png',
+            img: 'assets/BlackJack.png',
             icon: <ViewInArIcon className = 'icon'/>,
             decription: 'The BlackJack Terminal Game is a game I created using python that allows you to play BlackJack against a functioning dealer. The game also has a version where an algorthim plays for you based on the "play by the book" strategy.',
         },
